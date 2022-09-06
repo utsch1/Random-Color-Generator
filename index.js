@@ -24,8 +24,8 @@ if (argv[2] && argv[3]) {
 } else if (argv[2] === 'ask') {
   prompt.start();
   prompt.get(['colorname', 'luminosity'], function (err, result) {
-    let userHue = result.colorname;
-    let userLum = result.luminosity;
+    const userHue = result.colorname;
+    const userLum = result.luminosity;
     console.log(
       chalk
         .hex(randomColor({ luminosity: userLum, hue: userHue }))
