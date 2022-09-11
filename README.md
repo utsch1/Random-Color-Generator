@@ -1,4 +1,5 @@
 When the program is run without any input, print a random color
+<<<<<<< HEAD
 
 ````
 node index.js
@@ -27,3 +28,5 @@ prompt: colorname:  pink
 prompt: luminosity:  dark
 ````
 ![Color generator 'ask'](/Ask.png?raw=true)
+=======
+>>>>>>> 8b84e28 (Add readme file)
